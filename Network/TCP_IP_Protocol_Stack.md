@@ -18,8 +18,3 @@ OSI 7계층보다 실사용이 많이되는 프로토콜 계층이다.
 3계층은 _Internet Layer_ 로 IP구간이다.
 
 2계층은 _Network Access Layer_ 로 LAN과 WAN이 포함된다.
-
-
-
-UDP   
-IP

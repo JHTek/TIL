@@ -33,17 +33,22 @@ UDP헤더는 8바이트 고정이다.
 - Source port number - 16bits
 - Destination port number - 16bits
 - Total Length - 16bits
+  - TL - 8bytes(Header) = DataSize
 - Checksum - 16bits 
 
 # IP Header
 
 IP헤더
+
 - VER
 - HLEN
 - Servie type
 - Total Length
 - Identification
 - flag
+  - reserved
+  - Don't Fragment
+  - More Fragment
 - Fragmentation offset
 - Time To Live
 - Protocol

@@ -7,6 +7,7 @@ OS + α
 
 AMI : Linux, Windows, MacOS or Golden Image   
 User data: booting scription   
+
 EC2의 Back-up 같은 역할 가능
 
 [EC2 인스턴스 사이트](https://instances.vantage.sh/)

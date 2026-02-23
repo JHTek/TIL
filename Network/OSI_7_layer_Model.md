@@ -11,7 +11,11 @@ Data Link
 Physical
 
 
-
+7계층 주소 문자   
+L2: MAC = 전달   
+L3: IP = L2SW + Routing   
+L4: port = L3SW + @   
+L7: L4SW + @@    
 
 수직적 관계를 가지고 있다.
 

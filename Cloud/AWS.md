@@ -1,6 +1,6 @@
 # Amazon Web Services
 
-Internet에서 IT 리소스를 On-demand로 서비스를 제공받을 수 있음
+_Internet_ 에서 IT 리소스를 **On-demand**로 서비스를 제공받을 수 있음
 
  
 
@@ -19,6 +19,7 @@ Internet에서 IT 리소스를 On-demand로 서비스를 제공받을 수 있음
 - AWS의 어플리케이션을 사용해 별도의 개발 필요없음
 - 독립성은 낮은 것이 단점
   
+
 ### 클라우드컴퓨팅 서비스모델
 IaaS - 인프라   
 PaaS = 인프라, 플랫폼   
@@ -30,7 +31,10 @@ SaaS - 인프라, 플랫폼, 애플리케이션
 
 **D**ata **C**enter < **A**vailability **Z**one < Rigeon
 
-원하는 지역에 원하는 서비스를 배포가능하다.   
+원하는 지역에 원하는 서비스를 배포가능하다.  
+
+CDN(Content Delivery Network)   
+빠른 서비스를 제공가능
 
 리전 선택의 기준
 - 지연시간
@@ -40,6 +44,10 @@ SaaS - 인프라, 플랫폼, 애플리케이션
   - 새로운 서비스가 사용가능한 리전인가?
 - 비용
 
+
 **D**ata **C**enter < 엣지로케이션   
 해시 전용공간
+
+
+
 

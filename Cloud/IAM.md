@@ -25,10 +25,10 @@ root 사용자로 로그인을 하는 것도 권장하지 않음
             "Resource": ["*"]
     },
     {
-    "Sid": "DenyCustomerBucket",
-    "Action": ["s3:*"],
-    "Effect": "Deny",
-    "Resource": ["arn:aws:s3:::customer",   "arn:aws:s3:::customer/*" ]
+        "Sid": "DenyCustomerBucket",
+        "Action": ["s3:*"],
+        "Effect": "Deny",
+        "Resource": ["arn:aws:s3:::customer",       "arn:aws:s3:::customer/*" ]
     }
     ]
 }
@@ -40,18 +40,18 @@ root 사용자로 로그인을 하는 것도 권장하지 않음
 
     "Version": "2012-10-17",
     "Statement": [
-            {
-        "Action": [         //이 행동들에 대해서
-        "ec2:RunInstances",
-        "ec2:StartInstances",
-    "ec2:StopInstances",
-    "ec2:RebootInstances"
+        {
+            "Action": [         //이 행동들에 대해서
+                "ec2:RunInstances",
+                "ec2:StartInstances",
+                "ec2:StopInstances",
+                "ec2:RebootInstances"
         ],
         "Resource": "*",
         "Effect": "Allow",      //권한허락이 된다.
         "Condition": {
-                "StringEquals": {
-                    "ec2:Region": "us-east-2"  // us-east-2 region안에 있는 ec2에 대해서만
+            "StringEquals": {
+                "ec2:Region": "us-east-2"  // us-east-2 region안에 있는 ec2에 대해서만
                 }
             }
         }
@@ -82,6 +82,6 @@ Policy
 - 인라인 정책: 1회성
 
 role: 임시권한행사
-- user'(계정내/계정내)
+- user (계정내/계정내)
 - 서비스 -> 서비스
 - 자격증명연동

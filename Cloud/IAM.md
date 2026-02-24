@@ -63,13 +63,15 @@ us-east-2에 있는 ec2에 대해서만 Action을 Allow
 
 IAM 그룹설정으로 그룹내 사용자들에세 상속의 방식으로 부여가능
 
-정책생성기에서 생성가능
+[정책생성기](https://awspolicygen.s3.amazonaws.com/policygen.html)에서 생성가능
 
 **암시적 deny대신 명시적 deny를 하는 이유**
 - 여러 권한을 가지다 보면 생각치 못한 부분에서 Allow를 받게 됨
 - 중요한 부분에서는 명시적 deny가 필요함
 
-###### MFA 설정
+권한경계설정 가능
+
+MFA 설정
 
 User
 - console : username/ password

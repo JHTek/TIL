@@ -23,6 +23,14 @@ _Multi-AZ_ 를 사용하여 또 다른 AZ 가용영역에 예비DB생성
 
 _NACL_ 과 _Security group_ 을 이용하여 프라이빗 서브넷에 생성 
 
+## DynamoDB
 
+키-값데이터 유형의 비관계형(NoSQL) 데이터베이스   
+복잡한 검색보다 고속 데이터검색에 유리하다
 
+단순 데이터를 00ms미만의 성능으로 처리
 
+그외
+- Amazon Aurora
+- Neptune
+- 등등

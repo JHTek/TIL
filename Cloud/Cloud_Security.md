@@ -24,3 +24,42 @@ AMI Baking
  - Half Baking 
  - Raw Baking - 모든설계를 내가 해야함
 
+CloudTrail -> S3 저장
+
+CloudWatch Logs
+
+
+
+AWS SSM(Systems Manager)
+다수의 EC2 운영 및 애플리케이션, 보안관리, 패치 관리, 명령어 실행 등
+
+
+CloudFormation
+
+반복 배포하는 인프라는 자동으로 생성가능
+
+AWSConfig 
+
+규정 준수, 미준수 적용
+
+미준수에 대해 수동 또는 자동으로 보정가능
+
+
+AWSGuardDuty
+
+지능형(머신러닝) 위협 탐지 서비스
+
+### AWS Shield & WAF
+
+DDoS 공격 - 서비스 중단을 목적으로 1시간 이내의 짧은 시간에 대량의 트래픽을 보내는 공격
+
+DDoS를 완화 시킬 수 있는 서비스
+
+
+
+WebACL을 구성하여 규칙 생성 
+
+
+### SSM
+
+키페어 관리 불필요 SSh 포트 불필요

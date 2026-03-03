@@ -8,3 +8,9 @@
 - DMZ
 - Extranet
 
+
+
+### Switch    
+- port mirroring
+- hubbing out 
+- Tab

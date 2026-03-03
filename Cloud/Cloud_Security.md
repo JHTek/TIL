@@ -18,7 +18,7 @@
 
 보안사고를 대비하기 위해 백업 필수
 
-AMI Baking
+### AMI Baking
 
  - Full Baking - AMI + Userdata 모두 설계되어있음, 내가 원하는 AMI 만들기에도 유리함
  - Half Baking 
@@ -30,22 +30,22 @@ CloudWatch Logs
 
 
 
-AWS SSM(Systems Manager)
+### AWS SSM(Systems Manager)
 다수의 EC2 운영 및 애플리케이션, 보안관리, 패치 관리, 명령어 실행 등
 
 
-CloudFormation
+### CloudFormation
 
 반복 배포하는 인프라는 자동으로 생성가능
 
-AWSConfig 
+### AWSConfig 
 
 규정 준수, 미준수 적용
 
 미준수에 대해 수동 또는 자동으로 보정가능
 
 
-AWSGuardDuty
+### AWSGuardDuty
 
 지능형(머신러닝) 위협 탐지 서비스
 

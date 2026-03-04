@@ -12,6 +12,7 @@ Physical
 
 
 7계층 주소 문자   
+L1: 전기, 하드웨어  - 물리적 거리에 따라 감쇄와 증폭 필요   
 L2: MAC = 전달   
 L3: IP = L2SW + Routing   
 L4: port = L3SW + @   

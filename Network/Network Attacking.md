@@ -5,7 +5,7 @@
 SW 보안 약점(weakness): 보안취약점의 근본적인 원인 버그, 결함을 의미   
 식별 리스트: [CWE](https://cwe.mitre.org/)
 
-SW 보안 취약점: 실제 침해 사고 원인이 되는 보안 허점
+SW 보안 취약점: 실제 침해 사고 원인이 되는 보안 허점   
 식별 리스트: [CVE](https://www.cve.org/)
 
 

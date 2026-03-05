@@ -23,7 +23,7 @@
 
 소규모와 대규모 등 여러 분야에서 사용 중
 
-DevOps의 역량이 상당히 중요
+[DevOps](https://github.com/JHTek/TIL/blob/main/DevOps/Devops.md)의 역량이 상당히 중요
 
 컨테이너란 가상머신을 사용해 마이크로 서비스를 격리하는 기술
 

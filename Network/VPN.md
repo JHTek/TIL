@@ -8,6 +8,6 @@ IPsec: 터널링 프로토콜 HTTPS 터널링     * PPTP,PPP등 다양하게 존
 
 ### VPN 구성방식
 
-IPSec VPN: 본사와 지사의 연결에 보안연결
+IPSec VPN: 본사와 지사의 연결에 보안연결 - 장비 VPN
 
 SSL VPN: 본사 연결을 모두 원격으로 버꿔 보안검사 - 원격, 재택, BYOD상황, 하이브리드

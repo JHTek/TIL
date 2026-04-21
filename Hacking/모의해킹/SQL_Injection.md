@@ -1,4 +1,4 @@
-Union sql injection
+### Union sql injection
 
 Union = 병합하다
 
@@ -25,18 +25,19 @@ USER_TABLES
 유저가 생성한 테이블   
 개인정보가 여기에 담겨있을 확률이 높다!
 
-''/‘’ SQL 입력시 혼동주의
+'' / ‘’ SQL 에서 Single Quote입력시 혼동주의!
 세로방향과 살짝 누워있는게 있음 ''을 사용   
-word에 붙여넣기 할 경우 자동으로 바뀜 주의, Cntl + C 할때는 메모장에 
+word에 붙여넣기 할 경우 자동으로 바뀜 주의, Cntl + C 할때는 메모장에 하는 걸 권장
+
+### ERROR SQL Injection
 
 SELECT COUNT(테이블) FROM ALL_TABLES;   
 테이블 수 나옴
 
+더 많은 문법은 Database참조
 
-RNUM inlineview
 
-
-Blind Injection
+### Blind Injection
 
 SUBSTR(자르고 싶은 문자열, 자르고싶은 위치, 자르고싶은 개수)
 

@@ -3,3 +3,5 @@
 k8s라고도 부름
 
 다수의 컨테이너를 자동으로 운영하기 위한 오케스트레이션 도구
+
+PaaS(Platform as a Service) 

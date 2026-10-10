@@ -17,7 +17,7 @@ DATA
 - 송신지 IP
 - [수신지 Mac] - 빈칸(0x000000000000)
 - 수신지 IP
- 
+
 Destination: ff:ff:ff:ff:ff:ff - Broadcast통신
 
 ---

@@ -4,7 +4,7 @@ AH:인증 헤더 - 헤더를 보호
 
 ESP: 헤더와 바디를 캡슐로 감싼다.
 
-IPsec: 터널링 프로토콜 HTTPS 터널링     * PPTP,PPP등 다양하게 존재
+IPsec: 터널링 프로토콜 HTTPS 터널링      * PPTP,PPP등 다양하게 존재
 
 ### VPN 구성방식
 
